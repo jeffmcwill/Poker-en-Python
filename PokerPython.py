@@ -4,23 +4,8 @@ import numpy
 import time
 
 #juego de poker codificado en python 3 
-
-#falta agregarle un metodo para ganar y perder, *(ya hecho)que la ia agregue tambien dinero a la partida, *(ya hecho)limite de cantidad de cartas q se puede agregar.
-#ya le añadi metodos para ganar y perder, para apostar, para agregar cartas y la ia obtiene tambien cartas y apuesta. 
-#faltaria añadirle algun metodo que el dinero del jugador y el crupier se guarde en cada nuevo juego.
-#pude corregir el bug para q el juego siga jugandose reiniciandose las cartas de los jugadores pero manteniendole el dinero, lo que si aun no pude hacer que lo apostado
-# por los jugadores si pierden, se reste en los demas juegos.
-#corrigiendose aun
-# el bug del dinero del jugador q no se resta, aun no lo pude corregir.
-# se pudo corregir el bug asiendo un pequeño sistema que eliminaba la lista para que deje solamente lo que quedo de la apuesta anterior del jugador
-#costo pero se pudo
-#ahora solo faltaria que al ganar haga un conteo de la cantidad de partidas ganadas, perdidas y el dinero ganado.
-#15/1/23
-#resolvido error de numeros erroneos
-
-#ya no se pierde el puntaje, se añaden las apuestas y termina el juego apropiadamente.
-#ya termino el juego...
-#logre añadirle para que el jugador pierda si se queda sin dinero y tambien si la mesa ya no posee mas dinero, el juego termina.
+#empezado el dia 15/1/23 y finalizado el 16/1/23
+#codificado por Jeff McWill. 
 
 dinero = [500]
 dineroCrupier = [1200]
